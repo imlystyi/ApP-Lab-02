@@ -4,33 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d088612d-99d9-4898-82df-017dace3e411" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task01/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task01/Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task02/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task02/Cube.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task02/FlatFigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task02/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task02/Pyramid.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task02/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task02/SolidFigure.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task02/Sphere.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task02/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task02/Triangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task03/Airport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task03/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task03/Flight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task03/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task03/Passenger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task03/Plane.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task03/Schedule.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task03/Sex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/task03/Ticket.java" afterDir="false" />
-    </list>
+    <list default="true" id="d088612d-99d9-4898-82df-017dace3e411" name="Changes" comment="Initial commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +20,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -104,11 +81,35 @@
       <workItem from="1694508552423" duration="2796000" />
       <workItem from="1694543647989" duration="342000" />
       <workItem from="1694545464345" duration="1191000" />
-      <workItem from="1694595934755" duration="5958000" />
+      <workItem from="1694595934755" duration="6098000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1694602040920</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694602040920</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
