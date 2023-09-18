@@ -9,19 +9,18 @@
 package task03;
 
 import java.util.Calendar;
-import java.util.UUID;
 
 public class Ticket {
-    private final UUID ownerId;
+    private final Passenger passenger;
     private final Calendar purchaseDate;
 
-    public Ticket(final UUID ownerId, final Calendar purchaseDate) {
-        this.ownerId = ownerId;
+    public Ticket(final Passenger passenger, final Calendar purchaseDate) {
+        this.passenger = passenger;
         this.purchaseDate = purchaseDate;
     }
 
-    public UUID getOwnerId() {
-        return ownerId;
+    public Passenger getPassenger() {
+        return passenger;
     }
 
     public Calendar getPurchaseDate() {

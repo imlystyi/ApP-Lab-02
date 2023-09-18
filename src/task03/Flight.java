@@ -43,6 +43,14 @@ public class Flight implements Comparable<Flight> {
 
     // region Methods
 
+    public Airport getDepartureAirport() {
+        return departureAirport;
+    }
+
+    public Airport getArrivalAirport() {
+        return arrivalAirport;
+    }
+
     public Calendar getDepartureTime() {
         return departureTime;
     }
@@ -52,11 +60,11 @@ public class Flight implements Comparable<Flight> {
     }
 
     public void purchaseTicket(final Passenger passenger, final Calendar purchaseDate) {
-        if (passengers.stream().anyMatch(p -> p.getId() == passenger.getId())) {
+        if (passengers.stream().anyMatch(p -> p.getId().equals(passenger.getId()))) {
             throw new IllegalArgumentException("Passenger already has a ticket.");
         }
 
-        tickets.add(new Ticket(passenger.getId(), purchaseDate));
+        tickets.add(new Ticket(passenger, purchaseDate));
         passengers.add(passenger);
     }
 
@@ -99,9 +107,9 @@ public class Flight implements Comparable<Flight> {
     }
 
     public void cancelTicket(final int number) {
-        UUID passengerId = tickets.get(number).getOwnerId();
+        Passenger passenger = tickets.get(number).getPassenger();
         tickets.remove(number);
-        passengers.removeIf(p -> p.getId() == passengerId);
+        passengers.removeIf(p -> p == passenger);
     }
 
     @Override

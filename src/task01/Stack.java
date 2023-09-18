@@ -16,7 +16,6 @@ public class Stack<T> implements Iterable<T> {
     // region Fields
 
     private Node<T> top;
-    private int size;
 
     // endregion
 
@@ -24,7 +23,6 @@ public class Stack<T> implements Iterable<T> {
 
     public Stack() {
         top = null;
-        size = 0;
     }
 
     // endregion
@@ -35,7 +33,6 @@ public class Stack<T> implements Iterable<T> {
         final Node<T> node = new Node<>(item);
         node.next = top;
         top = node;
-        size++;
     }
 
     public T pop() {
@@ -45,16 +42,21 @@ public class Stack<T> implements Iterable<T> {
 
         final T item = top.data;
         top = top.next;
-        size--;
 
         return item;
     }
 
     public boolean isEmpty() {
-        return size == 0;
+        return size() == 0;
     }
 
     public int size() {
+        int size = 0;
+
+        for (T ignored : this) {
+            size++;
+        }
+
         return size;
     }
 
