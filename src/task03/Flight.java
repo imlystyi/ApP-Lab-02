@@ -109,7 +109,7 @@ public class Flight implements Comparable<Flight> {
     public void cancelTicket(final int number) {
         Passenger passenger = tickets.get(number).getPassenger();
         tickets.remove(number);
-        passengers.removeIf(p -> p == passenger);
+        passengers.removeIf(p -> p.equals(passenger));
     }
 
     @Override
